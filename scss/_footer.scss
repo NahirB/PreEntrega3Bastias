@@ -1,0 +1,28 @@
+/*---FOOTER----*/
+    
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+
+}
+.foot {
+    font-size: 20px;
+}
+.redes {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.redes a {
+    color: goldenrod;
+    text-decoration:none;
+}
+.contenedor p {
+    margin-top: 10px;
+    color: goldenrod;
+}
+

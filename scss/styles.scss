@@ -1,3 +1,7 @@
+@import 'variables';
+@import 'footer';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +12,14 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         padding-top: 50px;
-        background-color: black;
+        background-color:$color-fondo;
     
     }
     header {
         width: 100%;
         height: 50px;
-        background: white;
-        color: goldenrod;
-    
+        background:$color-letras;
+        color:$color-primario;
         position: fixed;
         top: 0;
         left: 0;
@@ -47,19 +50,19 @@
         padding: 20px;
     }
     li:hover{
-        background-color: goldenrod;
-        color: white;
+        background-color:$color-primario;
+        color:$color-letras;
     }
     .principal-text {
         text-align: center;
         margin: auto;
         width: 50%;
         padding: 10px;
-        color: white;
+        color:$color-letras;
     }
     
     .click-im {
-        border: 1px solid #ddd;
+        border: 1px solid $color-borde;
         border-radius: 10px;
         padding: 10px;
         width: 50%;
@@ -67,7 +70,7 @@
     }
     h3 {
         text-align: center;
-        color: goldenrod;
+        color:$color-primario;
     }
     .principal{
         padding-top: 20px;
@@ -75,7 +78,7 @@
     }
     .center{
         text-align: center;
-        color: goldenrod;
+        color:$color-primario;
     }
     
     /*----MENU----*/
@@ -102,11 +105,11 @@
     
     .menu a{
         display: block;
-        color: goldenrod;
+        color:$color-primario;
         height: 50px;
         text-decoration: none;
         padding: 15px;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid $color-borde;
     }
     
     .menu a:hover {
@@ -173,7 +176,7 @@
     /*----INTRO----*/
     #intro {
         text-align: center;
-        color: white;
+        color:$color-letras;
     }
     #intro img{
         width: 80%;
@@ -183,8 +186,8 @@
     
     /*----EJEMPLOS----*/
     #ejemplo {
-    background-color: #333;
-    color: #ffffff;
+    background-color:$color-ejemplos;
+    color:$color-letras;
     text-align: center;
     padding: 20px;
     }
@@ -203,7 +206,7 @@
         width: 180px;
         height: 180px;
         border-radius: 50%;
-        border: 7px solid #ffffff;
+        border: 7px solid $color-borde;
     }
     
     /*Responsive*/
@@ -236,9 +239,9 @@
     form input[type="email"]{
         width:180px;
         padding:3px 10px;
-        border:1px solid goldenrod;
+        border:1px solid $color-primario;
         border-radius:3px;
-        background-color: goldenrod;
+        background-color: $color-primario;
         margin:8px 0;
         display:inline-block;
     }
@@ -246,11 +249,11 @@
         width:100%;
         padding:8px 16px;
         margin-top:32px;
-        border:1px solid #000;
+        border:1px solid $color-fondo;
         border-radius:5px;
         display:block;
         color:rgb(240, 183, 97);
-        background-color:#000;
+        background-color:$color-fondo;
     } 
     form input[type="submit"]:hover
     {
@@ -259,41 +262,12 @@
     textarea{
         width:100%;
         height:100px;
-        border:1px solid #f6f6f6;
+        border:1px solid $color-borde;
         border-radius:3px;
-        background-color:#f6f6f6;			
+        background-color:$color-borde;			
         margin:8px 0;
         resize:none;
         display:block;
-    }
-    
-    
-    /*---FOOTER----*/
-    
-    footer .contenedor {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-bottom: 15px;
-        background-color: rgb(83, 83, 83);
-        width: 100%;
-       
-    }
-    .foot {
-        font-size: 20px;
-    }
-    .redes {
-        width: 100%;
-        text-align: center;
-        font-size: 28px;
-    }
-    .redes a {
-        color: goldenrod;
-        text-decoration:none;
-    }
-    .contenedor p {
-        margin-top: 10px;
-        color: goldenrod;
     }
     
     /*--Otros Responsive--*/
@@ -332,7 +306,7 @@
         .gallery__title {
             position: absolute;
             bottom:0;
-            color: white;
+            color: $color-letras;
             width: 100%;
             margin: 0;
             position: absolute; 

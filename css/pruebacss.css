@@ -1,28 +1,3 @@
-/*---FOOTER----*/
-footer .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 15px;
-  background-color: #535353;
-  width: 100%; }
-
-.foot {
-  font-size: 20px; }
-
-.redes {
-  width: 100%;
-  text-align: center;
-  font-size: 28px; }
-
-.redes a {
-  color: goldenrod;
-  text-decoration: none; }
-
-.contenedor p {
-  margin-top: 10px;
-  color: goldenrod; }
-
 * {
   margin: 0;
   padding: 0;
@@ -32,13 +7,13 @@ footer .contenedor {
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 50px;
-  background-color: #000; }
+  background-color: #000000; }
 
 header {
   width: 100%;
   height: 50px;
-  background: #ffffff;
-  color: #daa520;
+  background: white;
+  color: goldenrod;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,15 +44,15 @@ li {
   padding: 20px; }
 
 li:hover {
-  background-color: #daa520;
-  color: #ffffff; }
+  background-color: goldenrod;
+  color: white; }
 
 .principal-text {
   text-align: center;
   margin: auto;
   width: 50%;
   padding: 10px;
-  color: #ffffff; }
+  color: white; }
 
 .click-im {
   border: 1px solid #ddd;
@@ -88,7 +63,7 @@ li:hover {
 
 h3 {
   text-align: center;
-  color: #daa520; }
+  color: goldenrod; }
 
 .principal {
   padding-top: 20px;
@@ -96,7 +71,7 @@ h3 {
 
 .center {
   text-align: center;
-  color: #daa520; }
+  color: goldenrod; }
 
 /*----MENU----*/
 #menu-bar {
@@ -120,11 +95,11 @@ header label {
 
 .menu a {
   display: block;
-  color: #daa520;
+  color: goldenrod;
   height: 50px;
   text-decoration: none;
   padding: 15px;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #ffffff; }
 
 .menu a:hover {
   background: #f1d99a; }
@@ -177,7 +152,7 @@ header label {
 /*----INTRO----*/
 #intro {
   text-align: center;
-  color: #ffffff; }
+  color: white; }
 
 #intro img {
   width: 80%;
@@ -202,7 +177,7 @@ header label {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 7px solid #ddd; }
+  border: 7px solid #ffffff; }
 
 /*Responsive*/
 @media (min-width: 480px) {
@@ -230,9 +205,9 @@ form input[type="text"],
 form input[type="email"] {
   width: 180px;
   padding: 3px 10px;
-  border: 1px solid #daa520;
+  border: 1px solid goldenrod;
   border-radius: 3px;
-  background-color: #daa520;
+  background-color: goldenrod;
   margin: 8px 0;
   display: inline-block; }
 
@@ -252,12 +227,37 @@ form input[type="submit"]:hover {
 textarea {
   width: 100%;
   height: 100px;
-  border: 1px solid #ddd;
+  border: 1px solid #f6f6f6;
   border-radius: 3px;
-  background-color: #ddd;
+  background-color: #f6f6f6;
   margin: 8px 0;
   resize: none;
   display: block; }
+
+/*---FOOTER----*/
+footer .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 15px;
+  background-color: #535353;
+  width: 100%; }
+
+.foot {
+  font-size: 20px; }
+
+.redes {
+  width: 100%;
+  text-align: center;
+  font-size: 28px; }
+
+.redes a {
+  color: goldenrod;
+  text-decoration: none; }
+
+.contenedor p {
+  margin-top: 10px;
+  color: goldenrod; }
 
 /*--Otros Responsive--*/
 @media (min-width: 980px) {
