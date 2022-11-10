@@ -1,4 +1,3 @@
-/*---FOOTER----*/
 footer .contenedor {
   display: flex;
   flex-wrap: wrap;
@@ -260,11 +259,13 @@ textarea {
   display: block; }
 
 /*--Otros Responsive--*/
-@media (min-width: 980px) {
-  .contenedor {
-    width: 1000px; } }
-
-/*---TRABAJO CON GALERIA---*/
+/*@media (min-width:980px) {
+        .contenedor {
+            width: 1000px;
+        }
+    }
+    
+    /*---TRABAJO CON GALERIA---*/
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
