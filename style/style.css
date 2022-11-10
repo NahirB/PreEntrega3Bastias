@@ -2,24 +2,25 @@ footer .contenedor {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   background-color: #535353;
-  width: 100%; }
+  width: 100%;
+  bottom: 0; }
 
 .foot {
-  font-size: 20px; }
+  font-size: 18px; }
 
 .redes {
   width: 100%;
   text-align: center;
-  font-size: 28px; }
+  font-size: 25px; }
 
 .redes a {
   color: goldenrod;
   text-decoration: none; }
 
 .contenedor p {
-  margin-top: 10px;
+  margin-top: 6px;
   color: goldenrod; }
 
 * {
