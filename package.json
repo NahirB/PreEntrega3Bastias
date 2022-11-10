@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NahirB/PreEntrega2Bastias.git"
+    "url": "git+https://github.com/NahirB/PreEntrega3Bastias.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NahirB/PreEntrega2Bastias/issues"
+    "url": "https://github.com/NahirB/PreEntrega3Bastias/issues"
   },
-  "homepage": "https://github.com/NahirB/PreEntrega2Bastias#readme",
+  "homepage": "https://github.com/NahirB/PreEntrega3Bastias#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
