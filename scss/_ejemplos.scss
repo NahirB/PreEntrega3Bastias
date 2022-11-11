@@ -1,0 +1,34 @@
+#ejemplo {
+    background-color: $color-ejemplos;
+    color: $color-letras;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    #ejemplo .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .ejemplo-gym {
+        margin: 20px;
+        img //estilo de la imagen
+            {width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 7px solid $color-borde;}
+        }
+    
+    
+    /*Responsive*/
+    @media (min-width:480px) {
+        .ejemplo-gym {
+            width: 40%;
+        }
+    }
+    @media (min-width:980px) {
+        .ejemplo-gym {
+            width: auto;
+        }
+    }
