@@ -1,30 +1,57 @@
-#banner {
-    margin-top: 25px;
+.banner {
     position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #b9b8b8;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+    background-image: url('../assets/imageness/gimnasio-principal.jpg'); 
+    animation: banner 20s infinite linear;
 }
-#banner img {
+
+.banner-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-letras;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba($color: #000000, $alpha: .4);
+    font-weight: bolder;
 }
-#banner .contenedor{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-/*Responsive*/
-@media(min-width:480px) {
-    #banner{
-        margin-top: 25px;
+
+@keyframes benner{
+    0%{
+        background-image: url('../assets/imageness/gimnasio-principal.jpg'); 
+    }
+    25%{
+        background-image: url('../assets/imageness/gimnasio-principal.jpg');
+    }
+    26%{
+        background-image: url('../assets/imageness/banner2.jpg'); 
+    }
+    50%{
+        background-image: url('../assets/imageness/banner2.jpg');
+    }
+    51%{
+        background-image: url('../assets/imageness/banner3.webp'); 
+    }
+    75%{
+        background-image: url('../assets/imageness/banner3.webp');
+    }
+    76%{
+        background-image: url('../assets/imageness/banner4.webp'); 
+    }
+    100%{
+        background-image: url('../assets/imageness/banner4.webp');
     }
 }
-@media(min-width:768px) {
-    #banner {
-        height: 300px;
-        overflow: hidden;
-    }
-    #banner{
-        height: auto;
-        margin-top: -100px;
-    }
+
+.banner-contenedor p{
+    font-size: 50px;
+    
 }

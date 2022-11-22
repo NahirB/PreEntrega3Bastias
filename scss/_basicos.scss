@@ -19,3 +19,15 @@
         width: 100%;
         margin-bottom: 25px;
     }
+    @media (max-width:400px){
+        h1 {
+            font-size: xx-large;
+        }
+    }
+    @media (max-width:322px){
+        h1 {
+            font-size: x-large;
+            text-align: left;
+            padding-top: 10px;
+        }
+    }

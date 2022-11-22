@@ -1,7 +1,6 @@
 {
   "name": "preentrega3bastias",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -250,5 +249,6 @@
   "bugs": {
     "url": "https://github.com/NahirB/PreEntrega3Bastias/issues"
   },
-  "homepage": "https://github.com/NahirB/PreEntrega3Bastias#readme"
+  "homepage": "https://github.com/NahirB/PreEntrega3Bastias#readme",
+  "description": ""
 }
