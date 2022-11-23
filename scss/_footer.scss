@@ -8,19 +8,13 @@ footer .contenedor {
     width: 100%;
     position: absolute;
     bottom: 0;
-}
-.foot {
-    font-size: 18px;
-}
-.redes {
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-    a {color: goldenrod;
-        text-decoration:none;}
-}
-.contenedor p {
-    margin-top: 6px;
-    color: goldenrod;
-}
+    .foot {font-size: 18px;}
+            .redes {width: 100%;
+                text-align: center;
+                font-size: 25px;}
+                a {color: goldenrod;
+                text-decoration:none;}
+                    p {margin-top: 6px;
+                    color: goldenrod;}
+    } 
 

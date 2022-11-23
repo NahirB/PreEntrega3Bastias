@@ -36,11 +36,13 @@
         transform: translateX(0%);
         float: right;
         display: flex;
+        a {border: none
+        }
     }
 
-    .menu a {
+    /*.menu a {
         border: none
-    }
+    }*/
     header label {
         display: none;
     }

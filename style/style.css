@@ -7,21 +7,18 @@ footer .contenedor {
   width: 100%;
   position: absolute;
   bottom: 0; }
-
-.foot {
-  font-size: 18px; }
-
-.redes {
-  width: 100%;
-  text-align: center;
-  font-size: 25px; }
-  .redes a {
+  footer .contenedor .foot {
+    font-size: 18px; }
+  footer .contenedor .redes {
+    width: 100%;
+    text-align: center;
+    font-size: 25px; }
+  footer .contenedor a {
     color: goldenrod;
     text-decoration: none; }
-
-.contenedor p {
-  margin-top: 6px;
-  color: goldenrod; }
+  footer .contenedor p {
+    margin-top: 6px;
+    color: goldenrod; }
 
 .gallery-container {
   display: grid;
@@ -126,11 +123,10 @@ form {
   border-radius: 10px;
   margin: auto;
   background-color: #aa7b4c; }
-
-form label {
-  width: 72px;
-  font-weight: bold;
-  display: inline-block; }
+  formlabel {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block; }
 
 form input[type="text"],
 form input[type="email"] {
@@ -151,10 +147,13 @@ form input[type="submit"] {
   display: block;
   color: #ffffff;
   background-color: #daa520; }
+  form input[type="submit"]:hover {
+    cursor: pointer; }
 
-form input[type="submit"]:hover {
-  cursor: pointer; }
-
+/*form input[type="submit"]:hover
+    {
+    cursor: pointer;
+    }*/
 textarea {
   width: 100%;
   height: 100px;
@@ -224,8 +223,11 @@ header .contenedor {
     transform: translateX(0%);
     float: right;
     display: flex; }
-  .menu a {
-    border: none; }
+    .menu a {
+      border: none; }
+  /*.menu a {
+        border: none
+    }*/
   header label {
     display: none; } }
 
@@ -238,23 +240,24 @@ header .contenedor {
   background-position: center;
   transition: all 1s ease-in-out;
   background-image: url("../assets/imageness/gimnasio-principal.jpg"); }
+  .banner .banner-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bolder; }
+  .banner .banner-contenedor {
+    font-size: 80px; }
 
-.banner-contenedor {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  font-weight: bolder; }
-
-.banner-contenedor {
-  font-size: 80px; }
-
+/*.banner-contenedor{
+    font-size: 80px;
+}*/
 @media (max-width: 500px) {
   .banner-contenedor {
     font-size: 60px; } }
@@ -268,21 +271,18 @@ header .contenedor {
   color: #ffffff;
   text-align: center;
   padding: 20px; }
+  #ejemplo .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  #ejemplo .ejemplo-gym {
+    margin: 20px; }
+    #ejemplo .ejemplo-gym img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 7px solid #5a5958; }
 
-#ejemplo .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.ejemplo-gym {
-  margin: 20px; }
-  .ejemplo-gym img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 7px solid #5a5958; }
-
-/*Responsive*/
 @media (min-width: 480px) {
   .ejemplo-gym {
     width: 40%; } }

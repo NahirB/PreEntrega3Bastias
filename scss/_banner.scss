@@ -7,25 +7,23 @@
     background-position: center;
     transition: all 1s ease-in-out;
     background-image: url('../assets/imageness/gimnasio-principal.jpg');
+    .banner-contenedor{display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $color-letras;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba($color: #000000, $alpha: .4);
+                    font-weight: bolder;}
+                    .banner-contenedor{font-size: 80px;}
 }
 
-.banner-contenedor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: $color-letras;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba($color: #000000, $alpha: .4);
-    font-weight: bolder;
-}
-
-.banner-contenedor{
+/*.banner-contenedor{
     font-size: 80px;
-}
+}*/
 @media (max-width:500px){
     .banner-contenedor{
         font-size: 60px;

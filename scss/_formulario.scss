@@ -5,12 +5,11 @@ form{
     border-radius: 10px;
     margin: auto;
     background-color: rgb(170, 123, 76);
+    &label{width: 72px;
+        font-weight: bold;
+        display: inline-block;}
 }
-form label{
-    width: 72px;
-    font-weight: bold;
-    display: inline-block;
-}
+
 form input[type="text"],
 form input[type="email"]{
     width: 180px;
@@ -30,11 +29,12 @@ form input[type="submit"]{
     display: block;
     color: $color-letras;
     background-color: $color-primario;
+    &:hover{cursor: pointer;}
 } 
-form input[type="submit"]:hover
+/*form input[type="submit"]:hover
     {
     cursor: pointer;
-    }
+    }*/
 textarea{
     width: 100%;
     height: 100px;
