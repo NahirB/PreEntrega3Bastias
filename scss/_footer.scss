@@ -5,16 +5,16 @@ footer .contenedor {
     justify-content: center;
     padding-bottom: 5px;
     background-color: rgb(83, 83, 83);
-    width: 100%;
+    width: $ancho-principal;
     position: absolute;
     bottom: 0;
     .foot {font-size: 18px;}
-            .redes {width: 100%;
+            .redes {width: $ancho-principal;
                 text-align: center;
                 font-size: 25px;}
                 a {color: goldenrod;
                 text-decoration:none;}
                     p {margin-top: 6px;
-                    color: goldenrod;}
+                    color: $color-primario;}
     } 
 

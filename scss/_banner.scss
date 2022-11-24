@@ -1,10 +1,12 @@
 .banner {
     position: relative;
-    width: 100%;
+    width: $ancho-principal;
     height: 100vh;
-    background-color: #b9b8b8;
-    background-size: cover;
-    background-position: center;
+        background: { 
+            color: #b9b8b8;
+            size: cover;
+            position: center;
+        }
     transition: all 1s ease-in-out;
     background-image: url('../assets/imageness/gimnasio-principal.jpg');
     .banner-contenedor{display: flex;
@@ -14,23 +16,21 @@
                     color: $color-letras;
                     margin: 0;
                     padding: 0;
-                    width: 100%;
+                    width: $ancho-principal;
                     height: 100%;
                     background-color: rgba($color: #000000, $alpha: .4);
                     font-weight: bolder;}
                     .banner-contenedor{font-size: 80px;}
 }
 
-/*.banner-contenedor{
-    font-size: 80px;
-}*/
-@media (max-width:500px){
+    //RESPONSIVE
+    @media (max-width:500px){
     .banner-contenedor{
         font-size: 60px;
+        }
     }
-}
-@media (max-width:370px){
+    @media (max-width:370px){
     .banner-contenedor{
         font-size: 40px;
+        }
     }
-}

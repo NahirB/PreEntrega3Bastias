@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width: $ancho-principal;
     height: 50px;
     background: $color-letras;
     color: $color-primario;
@@ -7,6 +7,8 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
+    .contenedor
+        {display: table;}
     label {float: right;
         font-size: 28px;
         margin: 6px 0;
@@ -15,10 +17,5 @@ header {
 .contenedor {
     width: 90%;
     margin: auto;
-}
-h1 {
-    float: left;
-}
-header .contenedor {
-    display: table;
+    h1 {float: left;}
 }

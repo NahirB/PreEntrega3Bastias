@@ -27,7 +27,7 @@
     transform: translateX(0%);
 }
 
-/*Resposive*/
+//RESPONSIVE
 @media (min-width:980px) {
     .menu {
         position: static;
@@ -39,10 +39,6 @@
         a {border: none
         }
     }
-
-    /*.menu a {
-        border: none
-    }*/
     header label {
         display: none;
     }
