@@ -235,7 +235,7 @@ header {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     font-weight: bolder; }
@@ -244,11 +244,11 @@ header {
 
 @media (max-width: 500px) {
   .banner-contenedor {
-    font-size: 60px; } }
+    font-size: 50px; } }
 
 @media (max-width: 370px) {
   .banner-contenedor {
-    font-size: 40px; } }
+    font-size: 30px; } }
 
 #ejemplo {
   background-color: #333;

@@ -1,6 +1,6 @@
 .banner {
     position: relative;
-    width: $ancho-principal;
+    width: 100%;
     height: 100vh;
         background: { 
             color: #b9b8b8;
@@ -16,7 +16,7 @@
                     color: $color-letras;
                     margin: 0;
                     padding: 0;
-                    width: $ancho-principal;
+                    width: 100;
                     height: 100%;
                     background-color: rgba($color: #000000, $alpha: .4);
                     font-weight: bolder;}
@@ -26,11 +26,11 @@
     //RESPONSIVE
     @media (max-width:500px){
     .banner-contenedor{
-        font-size: 60px;
+        font-size: 50px;
         }
     }
     @media (max-width:370px){
     .banner-contenedor{
-        font-size: 40px;
+        font-size: 30px;
         }
     }
