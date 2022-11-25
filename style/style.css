@@ -34,17 +34,18 @@ footer .contenedor {
     object-fit: cover;
     justify-content: center;
     align-items: center; }
-  .gallery-containerhover {
-    background-color: gold;
-    opacity: 0.3; }
-  .gallery-container .gallery__title {
-    bottom: 0;
-    color: #ffffff;
-    width: 100%;
-    margin: 0;
-    position: absolute;
-    font-size: 20px;
-    display: flex; }
+  .gallery-container :hover {
+    background-color: #000;
+    opacity: 0,5; }
+
+.gallery__title {
+  bottom: 0;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  font-size: 20px;
+  display: flex; }
 
 .gallery__item:nth-child(1) {
   grid-column-start: span 2;
