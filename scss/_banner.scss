@@ -7,7 +7,6 @@
             size: cover;
             position: center;
         }
-    transition: all 1s ease-in-out;
     background-image: url('../assets/imageness/gimnasio-principal.jpg');
     .banner-contenedor{display: flex;
                     flex-direction: column;
@@ -16,21 +15,18 @@
                     color: $color-letras;
                     margin: 0;
                     padding: 0;
-                    width: 100;
+                    width: 100%;
                     height: 100%;
                     background-color: rgba($color: #000000, $alpha: .4);
                     font-weight: bolder;}
-                    .banner-contenedor{font-size: 80px;}
+                    .banner-contenedor{font-size: 40px;
+                                    padding: 10px;}
 }
 
     //RESPONSIVE
-    @media (max-width:500px){
+    @media (max-width:1024px){
     .banner-contenedor{
-        font-size: 50px;
+        font-size: 70px;
         }
     }
-    @media (max-width:370px){
-    .banner-contenedor{
-        font-size: 30px;
-        }
-    }
+   
